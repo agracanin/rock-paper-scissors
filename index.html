@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <section class="main-container">
+        <div class="headings">
+            <h1>ROCK PAPER SCISSORS</h1>
+            <h2>Select your weapon to start</h2>
+            <h3>First to score 5 points wins!</h3>
+        </div>
+        <div class="scoreboard">
+            <div class="scorebox">
+                <div class="scoresign" id="playerchoice">?</div>
+                <p class="score">Player: 0</p>
+            </div>
+            <div class="scorebox">
+                <div class="scoresign" id="computerchoice">?</div>
+                <p class="score">Computer: 0</p>
+            </div>
+        </div>
+        <div class="button-container">
+            <button id="selection" class="btn-select" value="rock">
+                <div class="sign">✊</div>
+            </button>
+            <button id="selection" class="btn-select" value="paper">
+                <div class="sign">✋</div>
+            </button>
+            <button id="selection" class="btn-select" value="scissors">
+                <div class="sign">✌</div>
+            </button>
+            <p>you win!</p>
+        </div>
+    </section>
+    <script src="app.js"></script>
+</body>
+
+</html>

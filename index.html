@@ -22,24 +22,28 @@
         <div class="scoreboard">
             <div class="scorebox">
                 <div class="scoresign" id="playerchoice">?</div>
-                <p class="score">Player: 0</p>
+                <p class="score">Player: <span id="pscore">0</span></p>
             </div>
             <div class="scorebox">
                 <div class="scoresign" id="computerchoice">?</div>
-                <p class="score">Computer: 0</p>
+                <p class="score">Computer: <span id="cscore">0</span></p>
             </div>
         </div>
         <div class="button-container">
             <button id="selection" class="btn-select" value="rock">
-                <div class="sign">✊</div>
+                <div class="sign div-hover">✊</div>
             </button>
             <button id="selection" class="btn-select" value="paper">
-                <div class="sign">✋</div>
+                <div class="sign div-hover">✋</div>
             </button>
             <button id="selection" class="btn-select" value="scissors">
-                <div class="sign">✌</div>
+                <div class="sign div-hover">✌</div>
             </button>
-            <p>you win!</p>
+        </div>
+
+        <div class="restart-container">
+            <h2 class="playagain">Good game!</h2>
+            <button class="restartbtn">Restart</button>
         </div>
     </section>
     <script src="app.js"></script>

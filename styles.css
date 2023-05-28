@@ -30,12 +30,9 @@ body {
     font-size: 80px;
 }
 
-.sign:hover {
-    cursor: pointer;
-}
-
 .btn-select:hover {
     opacity: 50%;
+    cursor: pointer;
 }
 
 h1 {
@@ -68,4 +65,27 @@ h3 {
 
 p {
     color: white;
+}
+
+span {
+    font-weight: 900;
+    color: #ffb703;
+}
+
+.restartbtn {
+    padding: 5px;
+    font-size: 20px;
+    width: 100%;
+    border-radius: 10px;
+    background-color: #ffb703;
+    color: white;
+}
+
+.restartbtn:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
+
+.restart-container {
+    display: none;
 }
